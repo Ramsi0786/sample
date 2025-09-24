@@ -8,6 +8,7 @@ app.get('/home',(req,res)=>{
 app.get('/about',(req,res)=>{
     res.send('About page, for application-level middleware checking...')
 })
+console.log('hello')
 
 app.get('/err',(req,res)=>{
     const err = new Error('error triggered')
